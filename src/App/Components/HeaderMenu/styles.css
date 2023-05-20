@@ -51,3 +51,36 @@ header h4 {
 header h5 {
   margin-top: 0;
 }
+.header-button-arrow {
+  background-color: inherit;
+  border: none;
+}
+.header-hiding-div {
+  position: absolute;
+  top: 70px;
+  right: 50px;
+  width: 18vw;
+  height: 13vh;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(169, 169, 169);
+}
+.header-hiding-div .header-button-log-in {
+  margin: 3vh 3vw 0;
+  width: 12vw;
+  height: 5vh;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  background: #FE3756;
+}
+.header-button-register {
+  height: 25px;
+  width: 396px;
+  left: 0px;
+  top: 153px;
+  border-radius: nullpx;
+  background: linear-gradient(0deg, #FE3756, #FE3756),
+              linear-gradient(0deg, #222222, #222222);
+
+}
